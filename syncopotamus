@@ -1,0 +1,14 @@
+new_tab Go
+cd ~/repos/syncopotamus-go/
+launch nvim 
+launch --type=window --title "Syncopotamus Go Run"
+resize_window narrower 30
+layout splits
+
+
+new_tab Svelte
+cd ~/repos/syncopotamus-svelte/
+launch nvim 
+launch npm run dev
+resize_window narrower 30
+layout splits
