@@ -1,16 +1,15 @@
-
 new_tab Go
 cd ~/repos/syncopotamus-go/
-launch --title "Syncopotamus Go" nvim
-launch --type=window --title "Syncopotamus Go Run"
+launch nvim
+launch --type=window 
 resize_window narrower 30
 layout tall
 
 
 new_tab Svelte
 cd ~/repos/syncopotamus-svelte/
-launch --title "Syncopotamus Svelte" nvim
-launch --title "Syncopotamus Svelte Run" npm run dev
+launch nvim
+launch npm run dev
 resize_window narrower 30
 layout tall
 
