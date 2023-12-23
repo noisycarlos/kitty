@@ -1,7 +1,7 @@
 new_tab Go
 cd ~/repos/syncopotamus-go/
 launch nvim
-launch --type=window 
+launch --env SYNCOPOTAMUS_ENV=dev --type=window 
 resize_window narrower 30
 layout tall
 
