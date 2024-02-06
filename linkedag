@@ -1,0 +1,7 @@
+new_tab Backend
+cd ~/repos/linkedag-backend/
+launch nvim
+launch npm run dev
+resize_window narrower 30
+layout tall
+
