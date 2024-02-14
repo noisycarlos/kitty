@@ -5,3 +5,9 @@ launch npm run dev
 resize_window narrower 30
 layout tall
 
+new_tab Frontend
+cd ~/repos/linkedag/
+launch nvim
+launch npm run dev
+resize_window narrower 30
+layout tall
